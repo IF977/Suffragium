@@ -1,24 +1,16 @@
+# Suffragium
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+#Justificativa
+Em conversa com algumas pessoas, foi constatado que não existe um acompanhamento viável das cobranças de propostas feitas por candidatos em época da eleição. Acompanhar os processos de elegibilidade e de propostas em campanhas eleitorais, requer dos eleitores votos mais conscientes e o mesmo consegue ter uma análise maior de todas as propostas dos candidatos.
 
+#Descrição do produto
+O objetivo deste projeto é criar uma plataforma onde o usuário possa encontrar as propostas dos candidatos, podendo avaliar as melhores e também acompanhar o seu cumprimento.
 
-Welcome to your Rails project on Cloud9 IDE!
+#Papel de cada Membro
+Gabriel Lira I Desenvolvedor I
 
-To get started, just do the following:
+Matheus Henrique I Desenvolvedor I
 
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://aaaaaas-wmaj.c9users.io/).
+Renata Carneiro I Desenvolvedor I
 
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+Williams Melo I Gerente de Projeto I
