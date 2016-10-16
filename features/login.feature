@@ -1,4 +1,4 @@
-Feature: Login no sistema.
+Feature: Login.
     As a User
     In order to login
     I want to use my facebook or my system register
