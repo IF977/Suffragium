@@ -36,4 +36,7 @@ group :test do
   gem 'database_cleaner'
   gem 'launchy'
   gem 'selenium-webdriver'
+  gem 'cucumber'
+  gem 'cucumber-rails',:require => false
+  gem 'capybara-webkit'
 end
