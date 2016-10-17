@@ -1,14 +1,14 @@
 require "spec_helper"
 
-    describe login do
+describe Cadastro do
 		it "Se o email de para cadastro é válido" #?
-		login = Login.new( name :'aaaaa', email :'aaaaaa@facebook')
+		login = Login.new(name : 'aaaaa', email : 'aaaaaa@hotmail')
 		expect(login).to be_valid
 	end
 
 		it "O email digítado já existe" #?
-	    user = user.create(:email => 'aaaaa@facebook.com')
-	    user = user.new(:email => 'aaaaa@facebook.com')
+	    user = user.create(:email => 'aaaaa@hotmail.com')
+	    user = user.new(:email => 'aaaaa@hotmail.com')
 	    expect(user).to be_valid
 	end
 
