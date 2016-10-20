@@ -1,5 +1,6 @@
 require "spec_helper"
 require "Usuario"
+
 describe Usuario do
     valid_input = "[a-zA-z ]"
     invalid_input= "[^A-Za-z0-9 ]"
