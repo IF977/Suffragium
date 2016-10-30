@@ -1,8 +1,8 @@
 class Usuario
-  attr_accessor :password,:user
+  attr_accessor :password,:usuario
   
   def initialize
     @password = "Ex123456"
-    @user = "FulanodeTal"
+    @usuario = "FulanodeTal"
   end
 end

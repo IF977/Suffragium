@@ -4,5 +4,6 @@ class Propostas
         @saude="proposta de saude"
         @educacao="proposta de educacao"
         @seguranca="proposta de seguranca"
+   
     end
 end

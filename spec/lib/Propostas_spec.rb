@@ -1,5 +1,5 @@
 require "spec_helper"
-require "propostas"
+require "Propostas"
 
 describe propostas do
     valid_input = "[a-zA-z ]"
