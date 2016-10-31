@@ -24,6 +24,7 @@ def usernew                                                   #Novo usuario
   else                                                                                                                          #Se não, salve
     @usuario.save!
   end
+  #teste
 end
   
   def consulta                                                               #Listando tudo

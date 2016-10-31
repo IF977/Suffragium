@@ -8,3 +8,4 @@ Feature: Candidate's Registering.
         Given I am authenticated
         When I press "Consultar Candidatos"
         Then I should see all the candidates eligible
+    #teste

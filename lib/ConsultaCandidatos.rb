@@ -4,3 +4,4 @@ class ConsultaCandidatos
         @candidates="Candidatos"
     end
 end
+#teste
