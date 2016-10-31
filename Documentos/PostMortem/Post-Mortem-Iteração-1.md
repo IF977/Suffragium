@@ -1,41 +1,41 @@
-Post Mortem iteraÁ„o 1
+Post Mortem itera√ß√£o 1
 
-Data inÌcio	02/10/2016
+Data in√≠cio	02/10/2016
 Data fim	17/10/2016
 
 
 O que estava planejado?
-	Planejado						Respons·vel
+	Planejado						Respons√°vel
 	Estudo sobre Cucumber.					(Todos)
-	CriaÁ„o do workspace no cloud9.				(Todos)
+	Cria√ß√£o do workspace no cloud9.				(Todos)
 	Iniciar o front						(Matheus e Gabriel)
 	Estudo sobre RSpecs					(Todos)
-	CriaÁ„o dos RSpecs					(Renata e Williams)
-	Reuniıes adicionais durante a semana (Segunda e Quarta)	(Todos)
+	Cria√ß√£o dos RSpecs					(Renata e Williams)
+	Reuni√µes adicionais durante a semana (Segunda e Quarta)	(Todos)
 
 
 O que foi feito?
-	Planejado						Respons·vel
+	Planejado						Respons√°vel
 	Estudo sobre RSpecs					(Todos)
-	CriaÁ„o dos RSpecs					(Renata e Willams)
-	Reuniıes adicionais durante a semana (Segunda e Quarta)	(Todos)
-	BDD da iteraÁ„o 1					(Renata e Williams)
-	TDD da iteraÁ„o 1					(Renata e Williams)
+	Cria√ß√£o dos RSpecs					(Renata e Willams)
+	Reuni√µes adicionais durante a semana (Segunda e Quarta)	(Todos)
+	BDD da itera√ß√£o 1					(Renata e Williams)
+	TDD da itera√ß√£o 1					(Renata e Williams)
 
-O que n„o foi feito?
-	Planejado						Respons·vel		Motivo
-	CriaÁ„o do workspace no cloud9				(Todos)			Precisa de um cart„o de crÈdito para cadastrar.
+O que n√£o foi feito?
+	Planejado						Respons√°vel		Motivo
+	Cria√ß√£o do workspace no cloud9				(Todos)			Precisa de um cart√£o de cr√©dito para cadastrar.
 	Front e back						(Matheus e Gabriel)	Cronograma apertado para aprender  Cucumber, Capybara e Rspec 
 
 
-O que est· planejado para a prÛxima iteraÁ„o?
-	Planejado						Respons·vel
+O que est√° planejado para a pr√≥xima itera√ß√£o?
+	Planejado						Respons√°vel
 	Iniciar o front						(Gabriel e Matheus)
 	Iniciar o back						(todos)
 	Melhoria BDDs e TDDs					(Renata e Williams)
 
-LiÁıes aprendidas (Post Mortem / Rationale)
+Li√ß√µes aprendidas (Post Mortem / Rationale)
 	Aprendido Cucumber, Capybara e Rspec.
-	Aprendido mais sobre cloud9
+	Aprendido mais sobre cloud9.
 
 
