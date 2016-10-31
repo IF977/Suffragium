@@ -8,4 +8,4 @@ Scenario: view historical voting.
 	Given I am on my perfil’s page
   	When I click on the “Meus votos” link
     Then I should see "Histórico de votos"
-    #teste
+    

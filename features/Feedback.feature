@@ -11,4 +11,4 @@ Scenario: To see proposal´s feedback.
 	And I see the evaluation´s elector of my proposals
 	And I see the feedback of my proposals
 	Then I should realize my proposals´s acceptance
-	#teste
+	

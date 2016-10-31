@@ -24,5 +24,4 @@ class PesquisaController < ApplicationController
   def pesquisaconsulta_params
     params.require(:intencaodevoto).permit(:graph)
   end
-  #teste
 end

@@ -7,4 +7,3 @@ class Historical
     @secondturn = "True"
   end
 end
-#teste
