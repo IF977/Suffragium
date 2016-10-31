@@ -44,12 +44,11 @@ Aprender CSS e HTML                         				(todos)
     
 #Lições aprendidas (Post Mortem / Rationale)
 
-Aprendido uso da plataforma GITHUB
+uso da plataforma GITHUB
 
-Aprendido Rails.
+Rails.
 
-Aprendido mais sobre cloud9.
+ mais sobre cloud9.
 
 Aprendido regular expression no Ruby.
->>>>>>> 0bd2f1f8d9c4dea9a32f9de22c7df2d8eb52bd9a
 
