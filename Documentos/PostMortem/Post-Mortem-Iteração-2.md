@@ -24,15 +24,11 @@ Melhoria BDD e TDD iteração 1.	// FEITO
 BDD e TDD iteração 2. // FEITO			        
 Iniciar o front	// FEITO					        
 Iniciar o back	// FEITO				            
-Modelo ER // FEITO					                
-Reuniões (Segunda e Quarta) //FEITO               
-              
-
-
+Modelo ER // FEITO					                            
+             
 #O que não foi feito?	               
-Reunião com todos os partipantes // uma vez na semana apenas  conseguimos e via rede social.	 
 
-front // foi iniciado					                           
+Reuniões com todos o membros durante a semana.
 
 
 #O que está planejado para a próxima iteração?
