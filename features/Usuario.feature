@@ -6,7 +6,7 @@ Feature: Login no sistema.
     @javascript  
     Scenario: Successful login using system register
         Given I am not authenticated
-        When I fill in "session[user]" with "user"
+        When I fill in "session[usuario]" with "usuario"
         And I fill in "session[password]" with "senha"
         And I press the "Fazer Login" button
         Then I should see a text "Usuário, first_name logado com sucesso!"
@@ -15,7 +15,7 @@ Feature: Login no sistema.
     @javascript
     Scenario: Unsuccessful login using system register
         Given I am not authenticated
-        When I fill in "session[user]" with "user"
+        When I fill in "session[usuario]" with "usuario"
         And I fill in "session[password]" with "senha"
         And I press the "Fazer Login" button
         Then I should see a text "Usuário e/ou Senha inválidos!"

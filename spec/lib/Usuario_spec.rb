@@ -2,7 +2,7 @@ require "spec_helper"
 require "Usuario"
 
 describe Usuario do
-    valid_input = "[a-zA-z ]"
+    valid_input = "[a-zA-Z0-9]"
     invalid_input= "[^A-Za-z0-9 ]"
     obj = Usuario.new
     
