@@ -5,13 +5,18 @@
 
 
 #O que estava planejado?
-Planejado						       Responsável
+Planejado						                    Responsável
 Melhoria BDD e TDD iteração 1.					 (Todos)
-BDD e TDD iteração 2.				            (Renata e Williams)
-Iniciar o front						  (Matheus, Gabriel e Williams)
-Iniciar o back					            	 (Renata)
-Modelo ER					                (Williams)
-Reuniões (Segunda e Quarta)	                		  (Todos)
+
+BDD e TDD iteração 2.				        (Renata e Williams)
+
+Iniciar o front						       (Matheus, Gabriel e Williams)
+
+Iniciar o back					            	   (Renata)
+
+Modelo ER					                      (Williams)
+
+Reuniões (Segunda e Quarta)	             (Todos)
 
 
 #O que foi feito?					        
@@ -25,20 +30,29 @@ Reuniões (Segunda e Quarta) //FEITO
 
 
 #O que não foi feito?	               
-Reunião com todos os partipantes // uma vez na semana apenas  conseguimos e via rede social.	                
+Reunião com todos os partipantes // uma vez na semana apenas  conseguimos e via rede social.	 
+
 front // foi iniciado					                           
 
 
 #O que está planejado para a próxima iteração?
 Planejado						            Responsável
+
 Continuar com o front						  (Gabriel e Matheus)
+
 Continuar com o back							(Will e Renata)
+
 Melhoria BDDs e TDDs					   		(Will e Renata)
+
 Aprender CSS e HTML                         				(todos)
     
 #Lições aprendidas (Post Mortem / Rationale)
+
 Aprendido uso da plataforma GITHUB
+
 Aprendido Rails.
+
 Aprendido mais sobre cloud9.
+
 Aprendido regular expression no Ruby.
 
