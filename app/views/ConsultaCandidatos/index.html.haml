@@ -1,0 +1,17 @@
+%h2 All candidatos
+
+%table#candidatos
+ %thead
+  %tr
+   %th candidatos Nome
+   %th Numero
+   %th Partido
+   %th Propostas
+ %tbody
+  - @candidatos.each do |candidatos|
+   %tr
+    %td= candidatos.nome
+    %td= candidatos.numero
+    %td= candidatos.partido
+    %td= link_to "More about #{candidatos.propostas}", candidatos_path(candidatos)
+    = link_to ’Add new candidatos’, new_candidatos_path
