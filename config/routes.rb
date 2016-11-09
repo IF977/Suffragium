@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
+  resources :candidatos
   get 'users/new'
 
-  resources :candidatos
   root  :to => 'users#new'
   
 resources :user_sessions

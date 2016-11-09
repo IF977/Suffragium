@@ -11,9 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161109192306) do
+ActiveRecord::Schema.define(version: 20161109201627) do
 
   create_table "candidatos", force: :cascade do |t|
+    t.string   "nome"
+    t.string   "numero"
+    t.string   "partido"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

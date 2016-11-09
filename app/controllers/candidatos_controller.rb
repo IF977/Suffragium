@@ -69,6 +69,6 @@ class CandidatosController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def candidato_params
-      params.fetch(:candidato, {})
+      params.require(:candidato).permit(:nome, :numero, :partido)
     end
 end

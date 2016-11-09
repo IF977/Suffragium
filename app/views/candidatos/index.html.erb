@@ -5,6 +5,9 @@
 <table>
   <thead>
     <tr>
+      <th>Nome</th>
+      <th>Numero</th>
+      <th>Partido</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -12,6 +15,9 @@
   <tbody>
     <% @candidatos.each do |candidato| %>
       <tr>
+        <td><%= candidato.nome %></td>
+        <td><%= candidato.numero %></td>
+        <td><%= candidato.partido %></td>
         <td><%= link_to 'Show', candidato %></td>
         <td><%= link_to 'Edit', edit_candidato_path(candidato) %></td>
         <td><%= link_to 'Destroy', candidato, method: :delete, data: { confirm: 'Are you sure?' } %></td>
