@@ -1,62 +1,62 @@
-class CasasController < ApplicationController
-  before_action :set_casa, only: [:show, :edit, :update, :destroy]
+class CandidatosController < ApplicationController
+  before_action :set_candidato, only: [:show, :edit, :update, :destroy]
 
-  # GET /casas
-  # GET /casas.json
+  # GET /candidatos
+  # GET /candidatos.json
   def index
-    @candidatos = Candidatos.all
+    @candidatos = Candidato.all
   end
 
-  # GET /casas/1
-  # GET /casas/1.json
+  # GET /candidatos/1
+  # GET /candidatos/1.json
   def show
   end
 
-  # GET /casas/new
+  # GET /candidatos/new
   def new
-    @candidatos = Candidatos.new
+    @candidato = Candidato.new
   end
 
-  # GET /casas/1/edit
+  # GET /candidatos/1/edit
   def edit
   end
 
-  # POST /casas
-  # POST /casas.json
+  # POST /candidatos
+  # POST /candidatos.json
   def create
-    @candidatos = Candidatos.new(candidatos_params)
+    @candidato = Candidato.new(candidato_params)
 
     respond_to do |format|
-      if @candidatos.save
-        format.html { redirect_to @candidatos, notice: 'Candidatos was successfully created.' }
-        format.json { render :show, status: :created, location: @candidatos }
+      if @candidato.save
+        format.html { redirect_to @candidato, notice: 'Candidato was successfully created.' }
+        format.json { render :show, status: :created, location: @candidato }
       else
         format.html { render :new }
-        format.json { render json: @candidatos.errors, status: :unprocessable_entity }
+        format.json { render json: @candidato.errors, status: :unprocessable_entity }
       end
     end
   end
 
-  # PATCH/PUT /casas/1
-  # PATCH/PUT /casas/1.json
+  # PATCH/PUT /candidatos/1
+  # PATCH/PUT /candidatos/1.json
   def update
     respond_to do |format|
-      if @candidatos.update(candidatos_params)
-        format.html { redirect_to @candidatos, notice: 'Candidatos was successfully updated.' }
-        format.json { render :show, status: :ok, location: @candidatos }
+      if @candidato.update(candidato_params)
+        format.html { redirect_to @candidato, notice: 'Candidato was successfully updated.' }
+        format.json { render :show, status: :ok, location: @candidato }
       else
         format.html { render :edit }
-        format.json { render json: @candidatos.errors, status: :unprocessable_entity }
+        format.json { render json: @candidato.errors, status: :unprocessable_entity }
       end
     end
   end
 
-  # DELETE /casas/1
-  # DELETE /casas/1.json
+  # DELETE /candidatos/1
+  # DELETE /candidatos/1.json
   def destroy
-    @candidatos.destroy
+    @candidato.destroy
     respond_to do |format|
-      format.html { redirect_to candidatos_url, notice: 'Candidatos was successfully destroyed.' }
+      format.html { redirect_to candidatos_url, notice: 'Candidato was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
@@ -69,6 +69,6 @@ class CasasController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def candidato_params
-      params.require(:candidato).permit(:nome)
+      params.fetch(:candidato, {})
     end
 end
