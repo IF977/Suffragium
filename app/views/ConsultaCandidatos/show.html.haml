@@ -1,0 +1,12 @@
+%h2 Details about #{@candidatos.nome}
+
+    %ul#details
+        %li
+            Partido:
+            = @candidatos.partido
+        %li
+            Numero:
+            = @candidatos.numero
+    %h3 Propostas:
+    %p#propostas= @candidatos.propostas
+    = link_to ’Back to candidatos list’, candidatos_path

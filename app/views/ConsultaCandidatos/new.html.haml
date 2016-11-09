@@ -1,0 +1,9 @@
+%h2 Create New Candidates
+= form_tag candidatos_path, :method => :post do
+    = label :candidates, :nome, ’Nome’
+    = text_field :candidates, :nome
+    = label :candidates, :numero, ’Numero’
+    = select :candidates, :numero, [’25’,’40’,’13’]
+    = label :candidates, :partido, ’partido’
+    = select :candidates, :partido
+    = submit_tag ’Save Changes’
