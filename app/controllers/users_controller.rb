@@ -7,7 +7,7 @@ class UsersController < ApplicationController
   end
   
   def usernew                                                   #Novo usuario
-    @user = User.new(cliente_params)                      
+    @user = User.new(user_params)                      
     @user['login'] = params[:user]['login']
     @user['password'] = params[:user]['password']
     substituir = ActiveRecord::Base.connection
@@ -19,7 +19,7 @@ class UsersController < ApplicationController
   end
   if result.any?  do;                                                                                                           #Se sim, erro
       @error = "USUARIO EXISTENTE!"
-      render 'Usuario/createerror'
+      render 'User/createerror'
       return
   end
   else                                                                                                                          #Se não, salve
@@ -36,10 +36,10 @@ class UsersController < ApplicationController
     result = sql.execute %{SELECT * FROM user WHERE login ='#{@update}'}   #O usuario dado existe?
     if result.any?  do;
       sql.execute %{DELETE FROM user WHERE login = '#{@update}'}          #Se existe, delete
-      render 'usuario/update'
+      render 'user/update'
     end
     else
-      render 'usuario/delerror'                                             #Se nao existe, erro
+      render 'user/delerror'                                             #Se nao existe, erro
     end
   end
   private
