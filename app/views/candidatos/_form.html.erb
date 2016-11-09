@@ -1,10 +1,10 @@
 <%= form_for(@casa) do |f| %>
-  <% if @casa.errors.any? %>
+  <% if @candidato.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(@casa.errors.count, "error") %> prohibited this casa from being saved:</h2>
+      <h2><%= pluralize(@candidato.errors.count, "error") %> prohibited this candidato from being saved:</h2>
 
       <ul>
-      <% @casa.errors.full_messages.each do |message| %>
+      <% @candidato.errors.full_messages.each do |message| %>
         <li><%= message %></li>
       <% end %>
       </ul>
