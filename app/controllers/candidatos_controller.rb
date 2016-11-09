@@ -14,7 +14,7 @@ class CandidatosController < ApplicationController
 
   # GET /candidatos/new
   def new
-    @candidato = Candidato.new
+    #@candidato = Candidato.new
   end
 
   # GET /candidatos/1/edit
