@@ -9,22 +9,23 @@ Início da Iteração | Término da iteração
 
 ### O que estava planejado
 
-* Finalizar o back
-* Finalizar o front
+* Finalizar o back e front
 * Fazer o TDD e BDD das Hus
 * Subir aplicação ao Heroku
 * Finalizar o modelo ER
 
 ### O que foi feito
-* BDD e TDD das Hus
 * Finalizar o modelo ER
 
 ### O que não foi feito
 * Finalizar o back
 * Finalizar o front
+* fazer o tdd e bd das hus
+* subir aplicação para o heroku
 
 ### Planejado para próxima iteração
 * Desenvolvimento de novas HUs como:
+* Finalizar o back e front e tdd e bdd das hus
 
 ### Lições aprendidas
 * Heroku
