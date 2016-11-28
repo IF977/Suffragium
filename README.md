@@ -11,6 +11,6 @@ Gabriel Lira I Desenvolvedor I
 
 Matheus Henrique I Desenvolvedor I
 
-Renata Carneiro I Desenvolvedor I
+~~Renata Carneiro I Desenvolvedor I~~
 
 Williams Melo I Gerente de Projeto I
